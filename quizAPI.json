@@ -2,22 +2,22 @@
   "questions": [
 {
 "frage": "Wie wird die Fähigkeit, Zahleninformationen zu verstehen und anzuwenden, genannt", 
-"antwort": "Numeracy", "altA": "Zählerskills", "altB": "Nummernkönnen"
+"antwort": "Numeracy", "altA": "Zählerskills", "altB": "Nummernkönnen", "erklaer":"Dies ist die Erklärung",
 },
 {
 "frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
-"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing"
+"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing", "erklaer":"Dies ist die Erklärung",
 },
 
   {"frage": "Engagement kann die Einstellung zu Produkten beeinflusen. Welche Effekt fanden Norton et al.?", 
-"antwort": "Ikea Effekt", "altA": "Stroop Effekt", "altB": "Konstruktionseffekt"
+"antwort": "Ikea Effekt", "altA": "Stroop Effekt", "altB": "Konstruktionseffekt", "erklaer":"Dies ist die Erklärung",
 },
   {
-  "frage": "'Have a Break have a KitKat' ist ein Beispiel für die Benutzung eines?", "antwort": "Triggers", "altA": "Mind Hacks", "altB": "Habituation"
+  "frage": "'Have a Break have a KitKat' ist ein Beispiel für die Benutzung eines?", "antwort": "Triggers", "altA": "Mind Hacks", "altB": "Habituation", "erklaer":"Dies ist die Erklärung",
   },
    {
 "frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
-"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing"
+"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing", "erklaer":"Dies ist die Erklärung",
 }
 ]
 }
