@@ -13,7 +13,11 @@
 "antwort": "Ikea Effekt", "altA": "Stroop Effekt", "altB": "Konstruktionseffekt"
 },
   {
-  "frage": "'Have a Break have a KitKat ist ein Besipiel für die Benutzung eins?'", "antwort": "Triggers", "altA": "Mind Hacks", "altB": "Habituation"
-  }
+  "frage": "'Have a Break have a KitKat' ist ein Besipiel für die Benutzung eines?", "antwort": "Triggers", "altA": "Mind Hacks", "altB": "Habituation"
+  },
+   {
+"frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
+"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing"
+}
 ]
 }
