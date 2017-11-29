@@ -1,22 +1,18 @@
 { "questions": [
 {
-frage: "Wie wird die Fähigkeit, Zahleninformationen zu verstehen und anzuwenden, genannt", 
-antwort: "Numeracy", altA: "Zählerskills", altB: "Nummernkönnen"
+"frage": "Wie wird die Fähigkeit, Zahleninformationen zu verstehen und anzuwenden, genannt", 
+"antwort": "Numeracy", "altA": "Zählerskills", "altB": "Nummernkönnen"
 },
 {
-frage: "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
-antwort: "Buzz Marketing", altA: "Spider Marketing", altB: "Fuzz Marketing"
+"frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
+"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing"
 },
-{
-frage: "Wie heißt das Modell nach Berger, welches zu Buzz führen soll?", 
-antwort: "STEPPS"
-},
-{
-frage: "Wie ist mein Name?", 
-antwort: "Mo", altA: "Distraktor3", altB: "Distraktor4"
+
+  {"frage": "Wie ist mein Name?", 
+"antwort": "Mo", "altA": "Distraktor3", "altB": "Distraktor4"
 },
   {
-  frage: "Wie heißt mein Bruder", antwort: "Dave", altA: "Distraktor5", altB: "Distraktor6"
+  "frage": "Wie heißt mein Bruder", "antwort": "Dave", "altA": "Distraktor5", "altB": "Distraktor6"
   }
-];
+]
 }
