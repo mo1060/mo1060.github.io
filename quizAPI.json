@@ -15,40 +15,80 @@
   {
   "frage": "'Have a Break have a KitKat' ist ein Beispiel für die Benutzung eines?", "antwort": "Triggers", "altA": "Mind Hacks", "altB": "Habituation", "erklaer":"Dies ist die Erklärung"
   },
-   {
-"frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
-"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing", "erklaer":"Dies ist die Erklärung"
-}
-,
+
    {
 "frage": "Welche Gehirnregion steht mit der Abspeicherung von Fakten/Wissen in Beziehung?", 
-"antwort": "Basalganglien", "altA": "Hippocampus", "altB": "Amygdala", "erklaer":"Die Basalganglien stehen mit der Abspeicherung von impliziten Erfahungenwerten in Verbindung. Die Amygdala steht vor allem mit Emotionen, wie z.B. Angst in Verbindung. Der Hippocampus ist der Teile des Gehirns, welcher mit der Speicherung von Fakten und Wissen in beziehung steht."
+"antwort": "Hippocampus", "altA": "Basalganglien", "altB": "Amygdala", "erklaer":"Die Basalganglien stehen mit der Abspeicherung von impliziten Erfahungenwerten in Verbindung. Die Amygdala steht vor allem mit Emotionen, wie z.B. Angst in Verbindung. Der Hippocampus ist der Teile des Gehirns, welcher mit der Speicherung von Fakten und Wissen in beziehung steht."
 }
 ,
    {
 "frage": "Welche Gehirnregion steht mit der Speicherung von impliziten Erfahrungswerten in Verbindung? ", 
-"antwort": "Das limbische System", "altA": "Hippocampus", "altB": "Basalganglien", "erklaer":"Das limbische System dient vor allem der Verarbeitung von Emotionen. Der Hippocampus steht in Verbindung mit der Abspeicherung von Fakten und Wissen. Richtig hier sind die Basalganglien."
+"antwort": "Basalganglien", "altA": "Hippocampus", "altB": "Das limbische System", "erklaer":"Das limbische System dient vor allem der Verarbeitung von Emotionen. Der Hippocampus steht in Verbindung mit der Abspeicherung von Fakten und Wissen. Richtig hier sind die Basalganglien."
 }
     ,
    {
 "frage": "Welche der folgenden Aussagen trifft nicht auf die automatische Verarbeitung zu?", 
-"antwort": "Automatische Aktivierung starker Assoziationen", "altA": "Konditionierung", "altB": "Bewusste Steureung der Aufmerksamkeit", "erklaer":"Bei der Route der automatischen Verarbeitung geht es um die beiläufige Wahrnehmung ohne Aufmerksamkeit. Starke Assoziationen werden automatisch aktiviert. Die werden meist über einen langen Zeitraum hinweg, durch wiederholte Wahrnehmung gelernt, z.B. über Konditionierung. Durch die automatische Wahrnehmung kommt es zu Vertrautheitseffekten. Das Route-1-Denken hilft uns, durch Erfahrung ein Bild von unserer Umwelt im Gedächtnis aufzubauen. Dieses kann später automatisch benutzt werden. "
+"antwort": "Bewusste Steuerung der Aufmerksamkeit", "altA": "Konditionierung", "altB": "Automatische Aktivierung starker Assoziationen", "erklaer":"Bei der Route der automatischen Verarbeitung geht es um die beiläufige Wahrnehmung ohne Aufmerksamkeit. Starke Assoziationen werden automatisch aktiviert. Die werden meist über einen langen Zeitraum hinweg, durch wiederholte Wahrnehmung gelernt, z.B. über Konditionierung. Durch die automatische Wahrnehmung kommt es zu Vertrautheitseffekten. Das Route-1-Denken hilft uns, durch Erfahrung ein Bild von unserer Umwelt im Gedächtnis aufzubauen. Dieses kann später automatisch benutzt werden. "
 }
  ,
    {
 "frage": "Wie heißt der Effekt, der mit Vertrautheit durch wiederholte Darbietung erklärt wird?", 
-"antwort": "Repeat-Sense-Effect", "altA": "Mere-Exposure-Effect", "altB": "Dr. Oetker-Effect", "erklaer":"Der Mere-Exposure-Effect beinhaltet, dass es durch die bloße wiederholte Wahrnehmung z.B. eines Produktes zu einer leichteren Verarbeitung kommt. Durch die leichtere Verarbeitung kommt es auch zu einer positiveren, besseren Beurteilung, z.B. des Produkts."
+"antwort": "Mere-Exposure-Effect", "altA": "Repeat-Sense-Effect", "altB": "Dr. Oetker-Effect", "erklaer":"Der Mere-Exposure-Effect beinhaltet, dass es durch die bloße wiederholte Wahrnehmung z.B. eines Produktes zu einer leichteren Verarbeitung kommt. Durch die leichtere Verarbeitung kommt es auch zu einer positiveren, besseren Beurteilung, z.B. des Produkts."
 }   
 ,
    {
 "frage": "Was ist ein psychologisches Ziel von Marketingkommunikation?", 
-"antwort": "Absatz", "altA": "Marktanteil", "altB": "Markenbekanntheit", "erklaer":"Zu den ökonomischen Zielen der Marketingkommunikation gehören u.a.: Absatz, Gewinn, Umsatz, Marktanteil. Psychologische Ziele der Marketingkommunikation sind z.B.: Unmittelbarer Kaufanstoss, Weckung von Produktinteresse, Bekanntheit des Anbieters, Imagebildung -differenzierung-übertragung, Wechselhemnnisse aufbauen/abbauen. "
+"antwort": "Markenbekanntheit", "altA": "Marktanteil", "altB": "Absatz", "erklaer":"Zu den ökonomischen Zielen der Marketingkommunikation gehören u.a.: Absatz, Gewinn, Umsatz, Marktanteil. Psychologische Ziele der Marketingkommunikation sind z.B.: Unmittelbarer Kaufanstoss, Weckung von Produktinteresse, Bekanntheit des Anbieters, Imagebildung -differenzierung-übertragung, Wechselhemnnisse aufbauen/abbauen. "
 }
     ,
    {
 "frage": "Welches Modell dient nach Berger der Schaffung von \"Buzz\"?", 
-"antwort": "FAPPS", "altA": "STEPPS", "altB": "BRANDS", "erklaer":"Das STEPPS-Modell nach Berger setzt sich zusammen aus: Social Currency, Triggers, Emotions, Public, Practical Value, Stories."
+"antwort": "STEPPS", "altA": "FAPPS", "altB": "BRANDS", "erklaer":"Das STEPPS-Modell nach Berger setzt sich zusammen aus: Social Currency, Triggers, Emotions, Public, Practical Value, Stories."
 }
+    ,
+   {
+"frage": "Menschen möchten positiv angesehen werden. Die Weitergabe wichtiger und neuer Informationen hebt den Wert von Menschen. Um welchen Aspekt des STEPPS-Modells handelt es sich?", 
+"antwort": "Social Currency", "altA": "Triggers", "altB": "Emotion", "erklaer":"Hier ist Social Currency gemeint. Der psychologische Mechanismus, der häufig verwendet wird ist die (Werbe-)Botschaft cool und erstaunlich zu gestalten. Da die Weitergabe einer solchen Botschaft auch etwas über den Kommunikator aussagt, kann sich dieser der Botschaft bedinen um den Selbstwert zu erhöhen. "
+}
+,
+{
+"frage": "Emotionen aktivieren und bereiten Verhalten vor. Welche Emotionslage führt nicht zu Buzz?", 
+"antwort": "Negative Emotion mit niedrigem Arrousal", "altA": "Negative Emotionen mit hohem Arousal", "altB": "Positive Emotionen mit hohem Arousal", "erklaer":"Emotionen die zu Buzz führen: Positive Emotionen mit hohem Arousal (Freude, Spass, positive Aufregung, Ehrfurcht, ..., wenn einem ein kalter Schauer den Rücken herunterläuft ), Negative Emotionen mit hohem Arousal (Angst, Furcht). Nicht zu Buzz führen:  positive Emotionen mit niedrigem Arousal (Zufriedenheit, Erleichterung) oder negative Emotionen mit niedrigem Arousal (Enttäuschung, Traurigkeit) "
+},
 
+{
+"frage": "Die Verarbeitung im impliziten System erfolgt u.a. durch...?", 
+"antwort": "Langsames Lernen", "altA": "Schnelles Lernen", "altB": "sprachgebundenes Lernen", "erklaer":"Dual Process Models setzen sich zusammen aus dem implizite System mit automatischer Verabreitung und dem expliziten System, das sowohl oberflächlich als auch intensiv verarbeituen kann."
+},
+
+{
+"frage": "Die Ausrichtung der Energie zur Ausführung von Verhalten bezeichnet man als...?", 
+"antwort": "Motivation", "altA": "Volition", "altB": "Emotion", "erklaer":"Bei der Motivation geht es um die Ausrichtung von Energie zur Ausführung von Verhalten. Treiber der Motivation sind z.B. biologische Bedürfnssie (Hunger, Schlaf), Implizite Motive (z.B.: Prädispositionen sich mit bestimmten Reizen auseinanderzusetzen) oder Explizite Motive (Werte, bewusste Präferenzen). "
+},
+
+{
+"frage": "Welcher Prozess führt häufig zum Einfluss von Bloggern auf die Produktwahl von Konsumenten?", 
+"antwort": "Imitation", "altA": "Nudging", "altB": "kognitive Dissonanz", "erklaer":"Blogger und Influencer haben häufig einen Einfluss auf ihre Audienc über die Ähnlichkeit zu dieser. Die Leser oder Zuschauer imitieren das Verhalten der Influencer."
+},
+
+{
+"frage": "Welches Motiv könnte bei der Herstellung von Werbeinhalten benutzt werden, wenn man weiß, dass die Zielgruppe dazu gehören möchte?", 
+"antwort": "Bindung", "altA": "Das Genuss-Prinzip", "altB": "Macht", "erklaer":"Hier passt am ehesten das Bindungsmotiv. Da Produkte instrumentell zur erstellung einer Beziehung benutzt werden können, kann sich die Werbebotschaft zum Beispiel darauf beziehen, dass man eine Bindung zu bestimmten Menschen aufbauen kann wenn man ein bestimmtes Produkt kauft #ElitePartner. 
+},
+
+{
+"frage": "Engagement, Distanz und Knappheit haben Einfluss auf...?
+"antwort": "Den Wert eines Produktes", "altA": "Die Motive", "altB": "Den Doppler-Effekt", "erklaer":"Der Ikea Effekt zeigte, dass Engagement ein Produkt positiver werder lässt. Wenn im Bonuspunkteheft nur noch ein Stempel fehlt ist die Distanz zum Bonus reduziert, was den Wert erhöht. Knappe Güter werden häufig wertvoller bewertet. Gold im Überfluss hätte keinen Wert mehr.  "
+},
+
+{
+"frage": "Eine Werbebotschaft lautet: \"Du möchtest den Aufnahmetest bestehen? Dannn melde Dich jetzt für unseren Kurs an\". Welcher Begriff passt?", 
+"antwort": "Konsistenz", "altA": "Bindung", "altB": "Optimal Stimulus", "erklaer":"Menschen streben danach sich in konsistenter Weise zu verhalten. Die kognitive Dissonanztheorie besagt, dass Menschen einen Zustand, in dem Ihre Ziele und Ihr Vehralten nicht im Einklang sind, vermeiden wollen."
+},
+,
+{
+"frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
+"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing", "erklaer":"Dies ist die Erklärung"
+},
 ]
 }
