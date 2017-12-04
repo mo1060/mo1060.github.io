@@ -126,9 +126,11 @@
 "frage": "Eine Firma verwendet für jedes Produkt bzw. Produktkategorie einen eigenen Markennamen. Welches Branding passt?", 
 "antwort": "Produkt-Einzelmarken", "altA": "Family Brand", "altB": "PT-Branding", "erklaer":"Es handelt sich um eine P-Brand."
 },
+    {
 "frage": "Eine Firma verwendet für verschiedene Zielgruppen verschiedene Markennamen aber mit verschiedenen Produkten. Welches Branding passt?", 
 "antwort": "T-Brand", "altA": "C-Brand", "altB": "PT-Branding", "erklaer":"Target-Group aka T-Brand bedeutet, dass speziell für Zielgruppen Marken entwickelt werden, die jedoch mehrere Produktkategorien umfassen können. Z.B. Wenn die Zielgruppe Alte Menschen sind und für Erwachsenenwindeln und Gehstöcken unter dem Markennamen Soft&Stick vertireben wird. Es wird schon spät Hanna :D."
 },
+    {
 "frage": "Eine Firma verwendet für Zielgruppen und Produktkategroien eigene Markennamen. Welches Branding passt?", 
 "antwort": "PT-Brand", "altA": "Family Brand", "altB": "P-Branding", "erklaer":"Bei produkt- und zielgruppenspezifischen Marken („PT-Branding“), wird jedes Feld der Produkte-Zielgruppen-Matrix mit einer eigenen Marke bearbeitet."
 },
