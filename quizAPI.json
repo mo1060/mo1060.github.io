@@ -122,6 +122,7 @@
 "frage": "Eine Firma verwendet für alle Produktkategorien und Zielgruppen die gleichen Marken. Welches Branding passt?", 
 "antwort": "Corporate Brand", "altA": "Family Brand", "altB": "PT-Branding", "erklaer":"Es handelt sich um eine Corporate Brand. Beispiel könnte z.B. Apple sein."
 },
+{
 "frage": "Eine Firma verwendet für jedes Produkt bzw. Produktkategorie einen eigenen Markennamen. Welches Branding passt?", 
 "antwort": "Produkt-Einzelmarken", "altA": "Family Brand", "altB": "PT-Branding", "erklaer":"Es handelt sich um eine P-Brand."
 },
@@ -131,11 +132,11 @@
 "frage": "Eine Firma verwendet für Zielgruppen und Produktkategroien eigene Markennamen. Welches Branding passt?", 
 "antwort": "PT-Brand", "altA": "Family Brand", "altB": "P-Branding", "erklaer":"Bei produkt- und zielgruppenspezifischen Marken („PT-Branding“), wird jedes Feld der Produkte-Zielgruppen-Matrix mit einer eigenen Marke bearbeitet."
 },
-
+    {
     "frage": "Ein Name steht hierarchisch übergeordnet über anderen Submarken. Welches Branding passt?", 
 "antwort": "Familiy-Brand", "altA": "C-Brand", "altB": "PT-Branding", "erklaer":"Es handelt sich um eine Family Brand. Bei Ferrero steht der Familienname übergeordnet über den Submarken wie Nutella oder Kinderschokolade."
 },
-    
+    {   
 "frage": "Eine Firma verwendet für alle Produktkategorien und Zielgruppen die gleichen Marken. Welches Branding passt?", 
 "antwort": "Corporate Brand", "altA": "Family Brand", "altB": "PT-Branding", "erklaer":"Es handelt sich um eine Corporate Brand. Beispiel könnte z.B. Apple sein."
 }
