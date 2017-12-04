@@ -19,5 +19,36 @@
 "frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
 "antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing", "erklaer":"Dies ist die Erklärung"
 }
+,
+   {
+"frage": "Welche Gehirnregion steht mit der Abspeicherung von Fakten/Wissen in Beziehung?", 
+"antwort": "Basalganglien", "altA": "Hippocampus", "altB": "Amygdala", "erklaer":"Die Basalganglien stehen mit der Abspeicherung von impliziten Erfahungenwerten in Verbindung. Die Amygdala steht vor allem mit Emotionen, wie z.B. Angst in Verbindung. Der Hippocampus ist der Teile des Gehirns, welcher mit der Speicherung von Fakten und Wissen in beziehung steht."
+}
+,
+   {
+"frage": "Welche Gehirnregion steht mit der Speicherung von impliziten Erfahrungswerten in Verbindung? ", 
+"antwort": "Das limbische System", "altA": "Hippocampus", "altB": "Basalganglien", "erklaer":"Das limbische System dient vor allem der Verarbeitung von Emotionen. Der Hippocampus steht in Verbindung mit der Abspeicherung von Fakten und Wissen. Richtig hier sind die Basalganglien."
+}
+    ,
+   {
+"frage": "Welche der folgenden Aussagen trifft nicht auf die automatische Verarbeitung zu?", 
+"antwort": "Automatische Aktivierung starker Assoziationen", "altA": "Konditionierung", "altB": "Bewusste Steureung der Aufmerksamkeit", "erklaer":"Bei der Route der automatischen Verarbeitung geht es um die beiläufige Wahrnehmung ohne Aufmerksamkeit. Starke Assoziationen werden automatisch aktiviert. Die werden meist über einen langen Zeitraum hinweg, durch wiederholte Wahrnehmung gelernt, z.B. über Konditionierung. Durch die automatische Wahrnehmung kommt es zu Vertrautheitseffekten. Das Route-1-Denken hilft uns, durch Erfahrung ein Bild von unserer Umwelt im Gedächtnis aufzubauen. Dieses kann später automatisch benutzt werden. "
+}
+ ,
+   {
+"frage": "Wie heißt der Effekt, der mit Vertrautheit durch wiederholte Darbietung erklärt wird?", 
+"antwort": "Repeat-Sense-Effect", "altA": "Mere-Exposure-Effect", "altB": "Dr. Oetker-Effect", "erklaer":"Der Mere-Exposure-Effect beinhaltet, dass es durch die bloße wiederholte Wahrnehmung z.B. eines Produktes zu einer leichteren Verarbeitung kommt. Durch die leichtere Verarbeitung kommt es auch zu einer positiveren, besseren Beurteilung, z.B. des Produkts."
+}   
+,
+   {
+"frage": "Was ist ein psychologisches Ziel von Marketingkommunikation?", 
+"antwort": "Absatz", "altA": "Marktanteil", "altB": "Markenbekanntheit", "erklaer":"Zu den ökonomischen Zielen der Marketingkommunikation gehören u.a.: Absatz, Gewinn, Umsatz, Marktanteil. Psychologische Ziele der Marketingkommunikation sind z.B.: Unmittelbarer Kaufanstoss, Weckung von Produktinteresse, Bekanntheit des Anbieters, Imagebildung -differenzierung-übertragung, Wechselhemnnisse aufbauen/abbauen. "
+}
+    ,
+   {
+"frage": "Welches Modell dient nach Berger der Schaffung von \"Buzz\"?", 
+"antwort": "FAPPS", "altA": "STEPPS", "altB": "BRANDS", "erklaer":"Das STEPPS-Modell nach Berger setzt sich zusammen aus: Social Currency, Triggers, Emotions, Public, Practical Value, Stories."
+}
+
 ]
 }
