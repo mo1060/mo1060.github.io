@@ -87,8 +87,47 @@
 },
 
 {
-"frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
-"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing", "erklaer":"Dies ist die Erklärung"
+"frage": "Eine Regel wie \"Immer wenn ich an der U-Bahn Station bin, dann nehme ich ein City-Bike statt der U-Bahn.\" ist ein Beispiel für...?", 
+"antwort": "Implementation Intention", "altA": "20%-Regel", "altB": "Umweltkontrolle", "erklaer":"Eine Wenn...Dann-Regel mit bestimmten Triggern, die ein bestimmtes Verhalten nach sich ziehen nennt man Implentation Intentions. Die 20%-Regel bezieht sich darauf das eigene Sättigungsgefühl zu überlisten indem man bei einer Mahlzeit 20% weniger Energie bei gleichbleibendem Volumen zu sich nimmt. Die Umweltkontrolle bezieht sich darauf, die Umwelt so zu gestalten oder zu nutzen, dass sie die eigenen Ziele unterstützt. Zum Beispiel keine Süßigkeiten im Haus haben, will man weniger Zucker essen."
+},
+{
+"frage": "Die Marke Miraldo wird von ihrer Zielgruppe als mysteriös und aufregend wahrgenommen. Welcher Begriff beschreibt die Aussage am besten?"
+"antwort": "Markenimage", "altA": "Markenidentität", "altB": "Markenerwartung", "erklaer":"Das Markenimage bezieht sich auf das Bild, das eine externe Zielgruppe von einer Marke hat. Dagegen bezieht sich die Markenidentität auf das Bild, das die interne Zielgruppe, wie die Mitarbeiter von sich selbst haben."
+},
+{
+"frage": "Was kann in einem Unternehmen als Führungskonzept benutzt werden?", 
+"antwort": "Markenidentität", "altA": "Markenimage", "altB": "Markenerwartung", "erklaer":"Die Markenidentität bezieht sich auf das Selbstbild der internen Selbstgruppe. Daher bietet es sich als Führungskonzept an, da die Unternehmensstrukturierung und Mitarbeiterführung der Identität der Marke folgen sollen. Damit wird erreicht, dass das Verhalten der Mitarbeiter und anderer Schnittstellen zum Kunden dem Bild entspricht, das man vermitteln will. "
+},
+{
+"frage": "An welchem Punkt des Produktlebenszyklus bringen Unternehmen in der Regel neue Produkte auf den Markt?", 
+"antwort": "Sättigung", "altA": "Wachstum", "altB": "Reifung", "erklaer":"Häufig versuchen Unternehmen durch Produktinnovation ihren Gewinn zu sichern, wenn es zu einer Sättigung bisheriger Produkte am Markt kommt."
+},
+{
+"frage": "Von ca. 1760 -1945 herrschte eine Herstellungsorientierung vor. Welche Orientierung ist seit ca. 2000 bis heute vorwiegend zu finden? ", 
+"antwort": "Konsumentenorientierung", "altA": "Verkaufsorientierung", "altB": "Marketingorientierung", "erklaer":"Im Verlauf der Zeit seeit 1760 hat der Einfluss der Konsumenten immer weiter zugenommen. Mittlerweile spricht man von einer Konsumentenorientierung."
+},
+{
+"frage": "Wenn Konsumenten Nahrungsmittel konsumieren, von denen sie denken, dass sie kalorienarm sind, erzeugt dies Hungergefühle und zusätzlichen nachfolgenden Konsum. Dies ist ein Beispiel für...? ", 
+"antwort": "Gegenregulation", "altA": "Priming", "altB": "Dieters-Paradox", "erklaer":"Hier geht es um die Gegenregulation. Das Dieters Paradox bezieht sich auf die systemtische Unterschätzung des Kaloriengehalts von Essen, das in einem gesunden Kontext gerahmt werden. Zum Beispiel die Darbietung eines Burgers mit Salat vs. ohne Salat."
+},
+{
+"frage": "Der Hersteller einer Marke namens SwissTriX hat zur Markteinführung beschlossen die Distributionskanäle für Ihre Uhren nur auf die eigene Internetseite und die eigenen Ladenlokale zu beschränken. SwissTriX-Uhren verkaufen sich ihre Uhren weit über dem Preis anderer, qualitativ gleichwertiger Uhren. Was trifft zu?  ", 
+"antwort": "Hohes akquisitorisches Potential", "altA": "Wertverfall", "altB": "Niedriges akquisitorisches Potential ", "erklaer":"Es gibt ein hohes akquisitorisches Potential. Kunden kaufen auch SwissTriX Uhren zu einem vergleichsweise hohen Preis. Die Gründe sind Spekulation, es könnte aber sein, dass der vergleichswert fehlt, da man bei SwissTriX nicht mit Preisen der Konkurrenz konfrontiert wird."
+},
+{
+"frage": "Wie kam Jennifer Aaker zu den Persönlichkeitsdismensionen von Marken?", 
+"antwort": "Lexikalische Strategie", "altA": "Experten-Evaluation", "altB": "Qualitative Firmenbefragung", "erklaer":"Dem lexikalischen Ansatz zufolge entwickelt die menschliche Sprache für alle persönlichen Merkmale, die in irgendeiner Form wichtig, interessant oder nützlich sind, spezielle Begriffe. Dies werden gesammelt und dann faktorenanalytisch reduziert bis die aussagekräftigsten übrig bleiben."
+},
+{
+"frage": "Eine Firma verwendet für alle Produktkategorien und Zielgruppen die gleichen Marken. Welches Branding passt?", 
+"antwort": "Corporate Brand", "altA": "Family Brand", "altB": "PT-Branding", "erklaer":"Es handelt sich um eine Corporate Brand. Beispiel könnte z.B. Apple sein."
+},
+"frage": "Eine Firma verwendet für jedes Produkt bzw. Produktkategorie einen eigenen Markennamen. Welches Branding passt?", 
+"antwort": "Produkt-Einzelmarken", "altA": "Family Brand", "altB": "PT-Branding", "erklaer":"Es handelt sich um eine P-Brand."
+},
+"frage": "Eine Firma verwendet für verschiedene Zielgruppen verschiedene Markennamen aber mit verschiedenen Produkten. Welches Branding passt?", 
+"antwort": "T-Brand", "altA": "C-Brand", "altB": "PT-Branding", "erklaer":"Target-Group aka T-Brand bedeutet, dass speziell für Zielgruppen Marken entwickelt werden, die jedoch mehrere Produktkategorien umfassen können. Z.B. Wenn die Zielgruppe Alte Menschen sind und für Erwachsenenwindeln und Gehstöcken unter dem Markennamen Soft&Stick vertireben wird. Es wird schon spät Hanna :D."
 }
+
 ]
 }
