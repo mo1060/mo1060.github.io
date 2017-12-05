@@ -5,6 +5,7 @@ fetch(url)
 .then(quiz => {
   view.start.addEventListener('click', ()=> game.start(quiz.questions), false);
   view.response.addEventListener('click', (event) => game.check(event), false);
+  view.weiter.addEventListener('click',(event)=> game.ask(), false);
 });
     // Utility functions
 function random(a,b=1) {
@@ -26,12 +27,16 @@ function shuffle(array) {
 // View Object
 const view = {
 score: document.querySelector('#score strong'),
+progress: document.querySelector('#fortschritt'),
 question: document.querySelector('#question'),
 result: document.querySelector('#result'),
+explain: document.querySelector('#explain'),
 info: document.querySelector('#info'),
 start: document.querySelector('#start'),
 response: document.querySelector('#response'),
 timer: document.querySelector('#timer strong'),
+weiter: document.querySelector('#next'),
+
 render(target,content,attributes) {
     for(const key in attributes) {
         target.setAttribute(key, attributes[key]);
@@ -48,26 +53,44 @@ hide(element){
   setup(){
   	this.show(this.question);
   	this.show(this.response);
+	this.show(this.progress);
   	this.show(this.result);
+	this.show(this.weiter);
+	
   	this.hide(this.start);
   	this.render(this.score,game.score);
+	 this.render(this.progress, '');
   	this.render(this.result,'');
   	this.render(this.info,'');
-    
+	this.render(this.explain, '');
+
  
   },
   teardown(){
     this.hide(this.question);
     this.hide(this.response);
+	this.hide(this.weiter);
     this.show(this.start);
   },
   
    buttons(array){
-  return array.map(value => `<button>${value}</button>`).join('');
-}
+  return array.map(value => `<button id= 'butter' class="ansButton btn btn-primary btn-lg">${value}</button>`).join('');
+},
+
+weiterButton(){
+   return `<button id='butweit' class="btn btn-primary btn-lg" disabled>Weiter</button>` ;
+ },
+
   
 
-
+ progressBar(perc, percF){
+    
+   return `
+<div class="progress">
+<div id='proSuc' class="progress-bar bg-success " role="progressbar" style="width: ${perc}%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progress-bar bg-danger" role="progressbar" style="width: ${percF}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>`;
+ },
 
 };
 
@@ -75,11 +98,18 @@ const game = {
 	start(quiz){
     console.log('start() invoked');
   this.score = 0;
+  this.perc = 0;
+  this.percF = 0;
   this.questions = [...quiz];
+  this.elemA = this.questions.length; 
+  
   view.setup();
-  this.secondsRemaining = 1200;
+  
+  this.secondsRemaining = 2400;
   this.timer = setInterval(this.countdown, 1000);
+
   this.ask();
+
   },
   
 
@@ -94,14 +124,19 @@ game.gameOver();
   
   ask(frage){
     console.log('ask() invoked');
-    if(this.questions.length > 2){
+	
+    if(this.questions.length > 0){
+		
       shuffle(this.questions);
       this.question = this.questions.pop();
       const options = [this.question.altB, this.question.altA, this.question.antwort];
       shuffle(options);
       const question = `${this.question.frage}`;
       view.render(view.question,question);
+	  view.render(view.result, '');
+	  view.render(view.explain, '');
       view.render(view.response,view.buttons(options));
+	  view.render(view.weiter,view.weiterButton());
     } 
     else{
       this.gameOver()
@@ -111,28 +146,55 @@ game.gameOver();
   check(event){
   console.log('check(event) invoked');
   const response = event.target.textContent;
+    const expl = this.question.erklaer;
   const answer = this.question.antwort;
-  const erkl = this.question.erklaer;
   if(response === answer){
-      view.render(view.result,`Das ist richtig. ${erkl} `, {'class':'correct'});
+      view.render(view.result,'Richtig!', {'class':'correct'});
+	  view.render(view.explain,`${answer} Ist richtig. \n ${expl}`);
+	  $(event.target).removeClass("btn-primary").addClass("btn-success");
+	      this.perc+= 100 / this.elemA ;
+      $(".progress-bar").css("width", this.perc + "%");
       this.score++;
       view.render(view.score,this.score);
     } else {
+	  $(event.target).removeClass("btn-primary").addClass("btn-danger");
+	$('#response').removeClass("btn-danger");
+	$( "#response" ).prop( "disabled", true );
+	
       view.render(view.result,`Leider falsch! Die korrekte Antwort lautet ${answer}`,{'class':'wrong'});
+	  view.render(view.explain,`Das ist falsch, die richtige Antwort lautet ${answer}. \n ${expl}`);
+      this.percF+= 100 / this.elemA ;
     }
-    this.ask();
+	
+      view.render(view.progress,view.progressBar(this.perc, this.percF));
+	  let buttonArr = document.querySelectorAll('button');
+ 
+      for(let i = 0; i < 4; i++){
+        console.log(buttonArr[i]);
+        buttonArr[i].disabled=true;
+      } 
+      $('#butweit').prop('disabled', false);
+   
+      
+    
+       
+    
+    //this.ask();
   },
 
   gameOver(){
     console.log('gameOver() invoked');
-    view.render(view.info,`Game Over, du hast ${this.score} Punkt${this.score !== 1 ? 'e' : ''}`);
+	if(this.perc > 60){
+       view.render(view.info,`Game Over, du hast ${this.score} Punkt ${this.score !== 1 ? 'e' : ''} und damit über 60% richtig... du wirst bestehen `);
+     } else {
+	 view.render(view.info,`Game Over, du hast ${this.score} Punkt ${this.score !== 1 ? 'e' : ''} und damit weniger als 60%... lern lieber noch weiter!`);}
+    
     view.teardown();
     clearInterval(this.timer);
   },
-      
+
 
 };
-
 
 
 
