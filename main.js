@@ -4,6 +4,7 @@ fetch(url)
 .then(res => res.json())
 .then(quiz => {
   view.start.addEventListener('click', ()=> game.start(quiz.questions), false);
+  view.start.addEventListener('touchstart', ()=> game.start(quiz.questions), false);
   view.response.addEventListener('click', (event) => game.check(event), false);
   view.weiter.addEventListener('click',(event)=> game.ask(), false);
 });
