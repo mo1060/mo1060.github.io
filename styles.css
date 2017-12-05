@@ -1,0 +1,56 @@
+
+body{
+background: #186da7;
+font-family: 'Roboto', sans-serif;
+}
+.dojo{
+background: #186da7;
+no-repeat;
+width: 100%;
+height: 800px;
+background-size: 100% auto;
+padding-top: 10px;
+}
+.quiz-body{
+background: rgba(255,255,255,1);
+margin: 150px 33%;
+padding: 10px 20px 50px 20px;
+-webkit-box-shadow: 4px 4px 11px 3px rgba(0,0,0,0.3);
+-moz-box-shadow: 4px 4px 11px 3px rgba(0,0,0,0.3);
+box-shadow: 4px 4px 11px 3px rgba(0,0,0,0.3);
+}
+h1{
+color: #186da7;
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+text-align: center;
+font-size: 48px;
+margin: 0;
+}
+button {
+color: #ffffff;
+background-color: #186da7;
+border-color: #130269;
+border-radius: 4px;
+margin: 0.2em 0;
+display: block;
+width: 100%;
+font-size: 24px;
+}
+#question {
+font-size: 24px;
+}
+#result{
+color: #fff;
+margin: 0.2em 0;
+width: 100%;
+Hello, JavaScript 27
+text-align: center;
+}
+.correct {
+background-color: #0c0;
+}
+.wrong {
+color: #fff;
+background-color: #c00;
+}
