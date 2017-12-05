@@ -24,7 +24,7 @@ color: #007bff;
 font-family: 'Roboto', sans-serif;
 font-weight: 900;
 text-align: center;
-font-size: 48px;
+font-size: 18px;
 margin: 0;
 }
 button {
@@ -46,11 +46,12 @@ margin: 15px;
 }
 #explain{
 	margin: 20px;
+	font-style: italic;
 	
 }
 
 #info {
-	font-size: 48;
+	font-size: 24px;
 	margin: 15px;
 	
 }
