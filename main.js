@@ -53,7 +53,7 @@ hide(element){
   	this.render(this.score,game.score);
   	this.render(this.result,'');
   	this.render(this.info,'');
-    this.render(this.hiScore, game.hiScore());
+    
  
   },
   teardown(){
@@ -112,8 +112,9 @@ game.gameOver();
   console.log('check(event) invoked');
   const response = event.target.textContent;
   const answer = this.question.antwort;
+  const erkl = this.question.erklaer;
   if(response === answer){
-      view.render(view.result,'Richtig!', {'class':'correct'});
+      view.render(view.result,`Das ist richtig. ${erkl} `, {'class':'correct'});
       this.score++;
       view.render(view.score,this.score);
     } else {
