@@ -77,7 +77,7 @@ const game = {
   this.score = 0;
   this.questions = [...quiz];
   view.setup();
-  this.secondsRemaining = 20;
+  this.secondsRemaining = 1200;
   this.timer = setInterval(this.countdown, 1000);
   this.ask();
   },
