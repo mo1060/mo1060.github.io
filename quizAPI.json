@@ -186,7 +186,13 @@
 {
 "frage": "Im Text von Andreas Strebinger werden unterschiedliche Befunde zur Abstraktions-Abschwächungshypothese präsentiert. Mit welchem Argument veruscht Strebinger die konträren Befunde zu erklären?", 
 "antwort": "Assoziation muss nicht abstrakt sein", "altA": "Symbole sind nicht messbar", "altB": "Rolex-Paradox", "erklaer":"Symbolisch positionierte Marken sind im Kopf des Konsumenten weniger mit einer bestimmten Produktkategorie verknüpft. Ihre Aussagekraft gewinnen sie durch eine assoziative Verknüpfung mit einer bestimmten Verwendergruppe. Diese Assoziation ist nicht notwendigerweise abstrakt, und es ist auch nicht einsichtig, warum eine Abstraktion dieser Vorstellung zu einem geringeren Aussageverlust führen sollte als eine Abstraktion funktionaler Produkteigenschaften. "
+},
+{
+"frage": "Die externe Markenstärke setzt sich zusammen aus... ", 
+"antwort": "Kundenverhalten und Markenimage", "altA": "Kundenverhalten und Markenidentität", "altB": "Mitarbeiterverhalten und Markenimage", "erklaer":"Die externe Markenstärke setzt sich aus den externen Faktoren Markenimage (Das Bild, das die externe Zielgruppe hat) und Kundenverhalten zusammen. Die interne Markenstärke setzt sich aus dem Mitarbeiterverhalten und der Markenidentität zusammen."
 }
+    
+
 
     
 ]
