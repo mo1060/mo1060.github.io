@@ -184,10 +184,14 @@ game.gameOver();
 
   gameOver(){
     console.log('gameOver() invoked');
-	if(this.perc > 60){
-       view.render(view.info,`Game Over, du hast ${this.score} Punkt ${this.score !== 1 ? 'e' : ''} und damit über 60% richtig... du wirst bestehen `);
-     } else {
-	 view.render(view.info,`Game Over, du hast ${this.score} Punkt ${this.score !== 1 ? 'e' : ''} und damit weniger als 60%... lern lieber noch weiter!`);}
+if(this.perc >= 60 && this.perc < 70){
+       view.render(view.info,`Game Over, du hast ${this.score} Punkt${this.score !== 1 ? 'e' : ''}. Eine ausreichende Leistung :-/ Du bekommst eine 4. `);
+     } 
+	 else if(this.perc >= 70 && this.perc < 80){view.render(view.info,`Game Over, du hast ${this.score} Punkt${this.score !== 1 ? 'e' : ''}. Eine befriedigende Leistung :-| Du bekommst eine 3. `);}
+	 else if(this.perc >= 80 && this.perc < 90){view.render(view.info,`Game Over, du hast ${this.score} Punkt${this.score !== 1 ? 'e' : ''}. Eine gute Leistung :-) Du bekommst eine 2. `);}
+	 else if(this.perc >= 90 && this.perc <= 100){view.render(view.info,`Game Over, du hast ${this.score} Punkt${this.score !== 1 ? 'e' : ''}. Oh yeah baby 8-)). Sehr Gut! Du bekommst eine 1. `);}
+	 else {
+	 view.render(view.info,`Game Over, du hast ${this.score} Punkt${this.score !== 1 ? 'e' : ''}...das war nicht gut :-(...lern, sonst fällst du durch. Du bekommst eine 5.`);}
     
     view.teardown();
     clearInterval(this.timer);
