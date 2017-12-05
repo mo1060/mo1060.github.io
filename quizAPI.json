@@ -141,6 +141,19 @@
     {   
 "frage": "Eine Firma verwendet für alle Produktkategorien und Zielgruppen die gleichen Marken. Welches Branding passt?", 
 "antwort": "Corporate Brand", "altA": "Family Brand", "altB": "PT-Branding", "erklaer":"Es handelt sich um eine Corporate Brand. Beispiel könnte z.B. Apple sein."
+},
+ 
+{
+"frage": "Die Firma AstroDogs stellt Accessoirs für Hunde her (z.B. Hundehalsbänder, Bälle). Jetzt wird beschlossen auch Accessoirs für Katzen auf den Markt zu bringen. Es handelt sich um...?  ", 
+"antwort": "Produktlinienerweiterung", "altA": "Markenerweiterung", "altB": "Co-Branding", "erklaer":"Es handelt sich um eine Produktlinienerweiterung, da die Produkte eine hohe Ähnlichkeit aufweisen. Von einer Markenerweiterung würde man sprechen wenn AstroDogs nun auch Weltraumanzüge herstellen würde."
+},
+{
+"frage": "Der Getränkehersteller XDrinks verkauft nun auch Abenteuerurlaube. Es handelt sich um...?", 
+"antwort": "Markenerweiterung", "altA": "Produktlinienerweiterung", "altB": "Co-Branding", "erklaer":"Es handelt sich um eine Markenerweiterung, da der Verkauf von Urlaubsreisen ein anderer Markt ist als der Verkauf von Getränken."
+},
+{
+"frage": "Die Star-Alliance beinhaltet ca. 28 verschiedene Fluggesellschaft. Es handelt sich um...? ", 
+"antwort": "Co-Branding", "altA": "Brand-Extension", "altB": "Produktlinienerweiterung", "erklaer":"Es handelt sich um Co-Branding oder auch Markenallianz. Vorteile können sich z.B. über gebündelte Kommunikationskanäle ergeben."
 }
 
 ]
