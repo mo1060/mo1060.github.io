@@ -160,8 +160,33 @@
 "antwort": "Down-Sizing", "altA": "Externe Marketingkosten", "altB": "Interne Koordinationskosten", "erklaer":"Die Antwortalternative, die nicht passt ist Down-Sizing, was sich auch eine Verringerung des Verpackungsinhaltes bezieht."
 },
 {
-"frage": "Ein Lebensmittelkonzern aus den USA hat einen Elektronikhersteller aus Südkorea gekauft. Experten raten dem Unternehmen dazu ihren Slogan von \"Manufacturing delicious food sinc 1912\" auf \"Products produced with passion since 1912\" umzuwandeln. Welchem Ansatz folgen die Experten?", 
+"frage": "Ein Lebensmittelkonzern aus den USA hat einen Elektronikhersteller aus Südkorea gekauft. Experten raten dem Unternehmen dazu ihren Slogan von \"Manufacturing delicious food since 1912\" auf \"Products produced with passion since 1912\" umzuwandeln. Welchem Ansatz folgen die Experten?", 
 "antwort": "Abstraktions-Abschwächungshypothese", "altA": "Buzz-Marketing", "altB": "Verengung der Distributionskanäle", "erklaer":"Die Abstraktions-Abschwächungshypothese besagt u.a., dass eine Dachmarke die viele verschiedene Produktkategorien umfasst in ihrem Inhalt abstrakter werden muss. Es wurde argumentiert, dass dies nicht für symbolische Markenkonzepte gilt, was jedoche in Studien z.B. zu Luxusautomarken widerlegt wurde."
+},
+{
+"frage": "Die Firma CommuSafe verkauft abhörsichere Telefone und GPS-Handys. Sie werben mit Sicherheit, hoher Zuverlässigkeit und Langlebigkeit ihrer Produkte. Welches Markenkonzept passt?", 
+"antwort": "Funktionales Konzept", "altA": "Relationales Konzept", "altB": "Symbolisches Konzept", "erklaer":"So genannte „funktionale Markenkonzepte“ versprechen einen höheren Produktnutzen, etwa durch technologische Überlegenheit, hohe Langlebigkeit, Verlässlichkeit oder ein sehr gutes PreisLeistungsverhältnis."
+},
+"frage": "Die Werbebotschaft \"Die Bier, die so schön hat geprickelt in meine Bauchnabel\" ist Ausdruck eines...? ", 
+"antwort": "Experienziellen Markenkonzepts", "altA": "Symbolischen Markenkonzepts", "altB": "Funktionalen Markenkonzepts", "erklaer":"Experienzielle Markenkonzepte betonen das sinnliche Erleben des Produkts durch Aufbau von Assoziationen geschmacklicher, olfaktorischer, akustischer, visueller oder taktiler Natur."
+},
+{
+"frage": "Die Firma LaFilia stellt Kleidung für junge Frauen in der Luxuskategorie her. Die Käufergruppe sind überwiegend Menschen aus der oberen Einskommensklasse mit einem Hang zu einem extravaganten Lebensstil. Welchen Markenkonzept passt?", 
+"antwort": "Symbolisches Konzept", "altA": "Experienzielles Konzept", "altB": "Funktionales Konzept", "erklaer":"Symbolische Markenkonzepte erlauben es dem Käufer, Persönlichkeitseigenschaften, Werte und Status auszudrücken, und helfen in der Aufrechterhaltung und Steigerung des Selbstwertgefühls sowie in der sozialen Selbstdarstellun(z.B. Prestige, Lebensstil)."
+},
+{
+"frage": "Welcher Begriff hat den Term \"Virales Marketing\" abgelöst ", 
+"antwort": "Buzz Marketing", "altA": "Spider Marketing", "altB": "Fuzz Marketing", "erklaer":"."
+},
+{
+"frage": "Der ADAC wirbt als gelber Engel. Man soll dem ADAC vertrauen, einen guten Service erhalten und sein Problem von ihm gelöst bekommen, wenn man mit dem Auto liegen bleibt. Welche Markenkonzepte sind am ehesten verwoben?", 
+"antwort": "Relational und Funktional", "altA": "Experienziell und Symbolisch", "altB": "Funktional und Symbolisch", "erklaer":"Hier handel es sich um die Verwebung von einem relationalen und funktionalen Markenkonzept. Siehe Grafik im Strebinger-Text auf Seite 9."
+},
+{
+"frage": "Im Text von Andreas Strebinger werden unterschiedliche Befunde zur Abstraktions-Abschwächungshypothese präsentiert. Mit welchem Argument veruscht Strebinger die konträren Befunde zu erklären?", 
+"antwort": "Assoziation muss nicht abstrakt sein", "altA": "Symbole sind nicht messbar", "altB": "Rolex-Paradox", "erklaer":"Symbolisch positionierte Marken sind im Kopf des Konsumenten weniger mit einer bestimmten Produktkategorie verknüpft. Ihre Aussagekraft gewinnen sie durch eine assoziative Verknüpfung mit einer bestimmten Verwendergruppe. Diese Assoziation ist nicht notwendigerweise abstrakt, und es ist auch nicht einsichtig, warum eine Abstraktion dieser Vorstellung zu einem geringeren Aussageverlust führen sollte als eine Abstraktion funktionaler Produkteigenschaften. "
 }
+
+    
 ]
 }
