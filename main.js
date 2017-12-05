@@ -32,7 +32,6 @@ info: document.querySelector('#info'),
 start: document.querySelector('#start'),
 response: document.querySelector('#response'),
 timer: document.querySelector('#timer strong'),
-hiScore: document.querySelector('#hiScore strong'),
 render(target,content,attributes) {
     for(const key in attributes) {
         target.setAttribute(key, attributes[key]);
@@ -129,15 +128,7 @@ game.gameOver();
     view.teardown();
     clearInterval(this.timer);
   },
-       hiScore(){
-      console.log('hiScore was invoked!');
-const hi = localStorage.getItem('highScore') || 0;
-if(this.score > hi || hi === 0) {
-localStorage.setItem('highScore',this.score);
-
-return localStorage.getItem('highScore');
-}
-}
+      
 
 };
 
