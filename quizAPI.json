@@ -154,7 +154,14 @@
 {
 "frage": "Die Star-Alliance beinhaltet ca. 28 verschiedene Fluggesellschaft. Es handelt sich um...? ", 
 "antwort": "Co-Branding", "altA": "Brand-Extension", "altB": "Produktlinienerweiterung", "erklaer":"Es handelt sich um Co-Branding oder auch Markenallianz. Vorteile können sich z.B. über gebündelte Kommunikationskanäle ergeben."
+},
+{
+"frage": "Am Markt können Unternehmen verschiedene Strategien umsetzen um z.B. kosteneffizienter zu werden. Wo ist wohl kaum mit Synergieeffekten zu rechnen?", 
+"antwort": "Down-Sizing", "altA": "Externe Marketingkosten", "altB": "Interne Koordinationskosten", "erklaer":"Die Antwortalternative, die nicht passt ist Down-Sizing, was sich auch eine Verringerung des Verpackungsinhaltes bezieht."
+},
+{
+"frage": "Ein Lebensmittelkonzern aus den USA hat einen Elektronikhersteller aus Südkorea gekauft. Experten raten dem Unternehmen dazu ihren Slogan von \"Manufacturing delicious food sinc 1912\" auf \"Products produced with passion since 1912\" umzuwandeln. Welchem Ansatz folgen die Experten?", 
+"antwort": "Abstraktions-Abschwächungshypothese", "altA": "Buzz-Marketing", "altB": "Verengung der Distributionskanäle", "erklaer":"Die Abstraktions-Abschwächungshypothese besagt u.a., dass eine Dachmarke die viele verschiedene Produktkategorien umfasst in ihrem Inhalt abstrakter werden muss. Es wurde argumentiert, dass dies nicht für symbolische Markenkonzepte gilt, was jedoche in Studien z.B. zu Luxusautomarken widerlegt wurde."
 }
-
 ]
 }
