@@ -190,6 +190,10 @@
 {
 "frage": "Die externe Markenstärke setzt sich zusammen aus... ", 
 "antwort": "Kundenverhalten und Markenimage", "altA": "Kundenverhalten und Markenidentität", "altB": "Mitarbeiterverhalten und Markenimage", "erklaer":"Die externe Markenstärke setzt sich aus den externen Faktoren Markenimage (Das Bild, das die externe Zielgruppe hat) und Kundenverhalten zusammen. Die interne Markenstärke setzt sich aus dem Mitarbeiterverhalten und der Markenidentität zusammen."
+},
+{
+"frage": "Die Tendenz, dass Konsumenten negative Informationen über Makren ignorieren kann erklärt werden mit...", 
+"antwort": "Selektives Hypothesentesten", "altA": "Generalisierung", "altB": "Spcificity Bias", "erklaer":"Menschen neigen dazu Informationen zu suchen, die ihrer Hypothese entsprechen"
 }
     
 
