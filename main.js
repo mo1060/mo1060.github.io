@@ -1,11 +1,11 @@
 const url = 'https://mo1060.github.io/quizAPI.json';
-
+let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 fetch(url)
 .then(res => res.json())
 .then(quiz => {
-  view.start.addEventListener('click', ()=> game.start(quiz.questions), false);
-  view.response.addEventListener('click', (event) => game.check(event), false);
-  view.weiter.addEventListener('click',(event)=> game.ask(), false);
+  view.start.addEventListener(touchEvent, ()=> game.start(quiz.questions), false);
+  view.response.addEventListener(touchEvent, (event) => game.check(event), false);
+  view.weiter.addEventListener(touchEvent,(event)=> game.ask(), false);
 });
     // Utility functions
 function random(a,b=1) {
