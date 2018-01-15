@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Richtig oder Falsch</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/vue-material@beta"></script>
+<meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons">
+<link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/vue-material.css">
+<link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css">
+<link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <div id="app1">
+      <md-toolbar class="md-primary" md-elevation="5">
+        <h1 class="md-title" style="flex: 1">{{quiz.title}}</h1>
+        <div class="md-toolbar-section-end">
+          <md-button class="md-icon-button"href="file:///home/mo/Documents/quiz/mo1060.github.io/riorwr/index.html">
+            <md-tooltip md-direction="bottom">Refresh</md-tooltip>
+            <md-icon>refresh</md-icon>
+          </md-button>
+          <md-button v-on:click="">
+            <i class="material-icons">info_outline</i>
+          </md-button>
+        </div>
+      </md-toolbar>
+        <p>Hinweis: {{quiz.hinweis}}</p>
+        <div v-for="(question, index) in quiz.questions" style="text-align: center">
+
+          <div v-show="index === questionIndex" style="margin: 10px">
+            <h2>{{question.text}}</h2>
+            <p v-show="ok">{{feedback}}</p>
+
+              <ul v-for="response in question.responses">
+
+                  <md-radio type="radio"
+                    class="md-primary"
+                    v-on:change="check"
+                    v-bind:value="response.correct"
+                    v-bind:name="index"
+                    v-model="userResponses[index]">{{response.text}}</md-radio>
+
+              </ul>
+
+            <p v-show="ok">{{question.erk}}</p>
+
+            <md-button class="md-raised md-primary" v-if="questionIndex > 0" v-on:click="prev">Letzte Frage</md-button>
+            <md-button class="md-raised md-primary" v-show="ok" v-on:click="next">Nächste Frage</md-button>
+          </div>
+
+        </div>
+        <div style="text-align: center">
+          <img v-if="win" src="https://media.giphy.com/media/111ebonMs90YLu/giphy.gif" alt="bild" style="width:100px;height:100px">
+        </div>
+        <div id="prog" style="margin: 50px"><md-progress-bar md-mode="determinate" :md-value="amount"></md-progress-bar></div>
+
+        <div v-show="questionIndex === quiz.questions.length">
+            <h2>
+              Quiz ist vorbei, danke!
+            </h2>
+            <p>
+              Gesamtpunkte: {{ score() }} / {{ quiz.questions.length }}
+            </p>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="app.js">
+
+    </script>
+  </body>
+</html>
